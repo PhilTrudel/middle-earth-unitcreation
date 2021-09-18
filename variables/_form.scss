@@ -1,13 +1,9 @@
 .unit{
-    font-size: 0.750em;
     .form-control{
         padding: .200rem .200rem;
-        width: 75%;
+        width: 100%;
         align-items: center;
         justify-content: center;
-        :first-of-type{
-            border:2px red solid;
-        }
      }
 }
 

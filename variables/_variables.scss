@@ -8,3 +8,11 @@ $good:#1E8CD3;
 $evil:#D31E1E;
 $title:'Poppins', sans-serif;
 $text:'Mulish', sans-serif;
+
+
+.title{
+    font-family: $title;
+    color: $primary;
+    font-size: 4em;
+    text-shadow: -3px 3px 2px #000000;
+}
