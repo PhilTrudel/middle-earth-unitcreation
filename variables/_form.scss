@@ -1,4 +1,5 @@
 .unit{
+    font-size: 0.750em;
     .form-control{
         padding: .200rem .200rem;
         width: 75%;
@@ -8,4 +9,13 @@
             border:2px red solid;
         }
      }
+}
+
+.btn__add{
+    cursor: pointer;
+    margin: 2px;
+    transition: all 100ms ease-in;
+    &:hover{
+        transform: scale(1.25);
+    }
 }
