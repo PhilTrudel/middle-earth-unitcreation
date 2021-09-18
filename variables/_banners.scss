@@ -1,0 +1,25 @@
+@use 'variables/variables';
+
+
+.container__banner{
+    position: absolute;
+    top: 5vh;
+    .banner{
+        display: flex;
+        background-color: white;
+        width: 30vw;
+        height: 100px;
+        margin: 5px;
+        border-radius: 20px 0px;
+        box-shadow: -5px 2px 15px 5px #000000;
+    
+        &__title{
+        font-family: variables.$title;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        }
+    }
+}
