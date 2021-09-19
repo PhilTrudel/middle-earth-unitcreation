@@ -1,5 +1,5 @@
 @use 'variables/variables';
-
+@use 'sass:color';
 
 .unit{
     .form-control{
@@ -21,13 +21,13 @@
 }
 
 th:nth-child(9){
-    border: 3px variables.$evil solid !important;
+    border: 3px color.invert(variables.$evil) solid !important;
  }
 
  th:nth-child(10){
-    border: 3px variables.$evil solid !important;
+    border: 3px color.invert(variables.$evil) solid !important;
  }
 
  th:nth-child(11){
-    border: 3px variables.$evil solid !important;
+    border: 3px color.invert(variables.$evil) solid !important;
  }
