@@ -1,2 +1,2 @@
-# middle-earth-unitcreation
-Creating fast and simple card for units in Game Workshop's Middle-Earth stategy game
+# Middle Earth Unit Sheet creation
+Creating fast and simple card for units in Game Workshop's Middle-Earth Stategy game
