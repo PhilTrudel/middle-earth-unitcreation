@@ -4,10 +4,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "download-data": "node scripts/download-data"
   },
   "devDependencies": {
-    "vite": "^2.5.4"
+    "unzipper": "^0.10.11",
+    "vite": "^2.5.4",
+    "xml2js": "^0.4.23"
   },
   "dependencies": {
     "bootstrap": "^5.1.1",
