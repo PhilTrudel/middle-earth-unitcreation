@@ -31,3 +31,7 @@ th:nth-child(9){
  th:nth-child(11){
     border: 3px color.invert(variables.$evil) solid !important;
  }
+
+ .text-color{
+    color: variables.$primary !important;
+ }

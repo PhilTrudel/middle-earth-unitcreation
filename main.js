@@ -42,6 +42,7 @@ addHero.addEventListener("click", function() {
     <td><input type="text" class="form-control" placeholder="0-9"></td>
     <td><input type="text" class="form-control" placeholder="0-9"></td>
     <td><input type="text" class="form-control" placeholder="0-9"></td>
+    <td><input type="text" class="form-control" placeholder="0-9"></td>
     <td><input type="text" class="form-control" placeholder="0-9"></td>`
     document.getElementById('tableHero').appendChild(newRow);
 });
