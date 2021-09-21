@@ -5,6 +5,8 @@
 @use 'sass:color';
 
 
+$primary: #FFC920;
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +17,7 @@ html, body{
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  background-color: variables.$primary;
+  background-color: $primary;
   background-image: url('/medias/map.jpg');
   background-size: cover;
   display: flex;

@@ -1,0 +1,38 @@
+@import url('variables/variables');
+@import url('variables/banners');
+@import url('variables/cards');
+@import url('variables/form');
+@import url('sass:color');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	background-color: #FFC920;
+	background-image: url("/medias/map.jpg");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media print {
+	* {
+		font-size: 8px;
+	}
+
+	body {
+		margin: 0;
+		color: #000;
+	}
+
+	h1, .btn, .btn__add {
+		display: none;
+	}
+}

@@ -1,4 +1,4 @@
-import '/main.scss'
+import '../../main.scss'
 
 let addMagic = document.querySelector('.magic');
 let addItem = document.querySelector('.item');
