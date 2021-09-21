@@ -1,0 +1,54 @@
+{
+    "hero": "Gandalf the Grey",
+    "picture": " ",
+    "caracteristic": [
+      {
+        "name": "Movement",
+        "value": "10\""
+      },
+      {
+        "name": "Fight",
+        "value": "5/5+"
+      },
+      {
+        "name": "Strength",
+        "value": "6"
+      },
+      {
+        "name": "Defense",
+        "value": "5"
+      },
+      {
+        "name": "Attack",
+        "value": "3"
+      },
+      {
+        "name": "Wounds",
+        "value": "3"
+      },
+      {
+        "name": "Courage",
+        "value": "4"
+      },
+      {
+        "name": "Might",
+        "value": "2"
+      },
+      {
+        "name": "Will",
+        "value": "2"
+      },
+      {
+        "name": "Fate",
+        "value": "1"
+      },
+      {
+        "name": "Heroic Actions",
+        "value": "March Strength"
+      },
+      {
+        "name": "Heroic Tier",
+        "value": "Hero of Fortitude"
+      }
+    ]
+  }
