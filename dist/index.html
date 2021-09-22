@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link type="text/css" rel="stylesheet" id="dark-mode-custom-link">
+<link type="text/css" rel="stylesheet" id="dark-mode-general-link">
+<style lang="en" type="text/css" id="dark-mode-custom-style"></style>
+<style lang="en" type="text/css" id="dark-mode-native-style"></style>
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAs5JREFUOE99kmtI01EYh39nXrZ5adPMO9q8pBJEBSFJeaNvlQSmSVZISiRIeAFt4UQnJEqokZFgk+pDpmZo6JdQ5wWzyEsXBS9tpnlrmW5uuum2/4n/QmkxO5/e9z3PeTjnPS/Bf1Z8mTyN3e4Wxz3ZCyMJbT+8ApydpCq1eajporBuBzxZ+ZbPNxmn2Vxv7xA6mBultyUhae1r0oQooaT9nYZqdcSjOVmwyoJxFT05hJJKNqaE5srzY6tsClIalmKdeERuNpmHno77RqKYMLHFch7hcZSEwMcioFiiBiaopzjO8K+EsIXJ+hIFKKcyLF3ykM3jy/tuAvSRNUwyuwuia20KpuqlzQyD6vCMooGkpia7XzOekwAJtoapYr9IFdacnGz+u/7nBjJpIwNUZ6zEj3FhTAc4Nt8LkJwtcGQDBae0O5JdwYP1w4Hjq8yxE4e8HIPcNHAzjULoSi2cWkuwbheCGZ0Ig+Pz28TlwGuTA8nty4v5bhFM1Jc0iV99SArw24BEUgrd5wp0tswgXXzUIpCVfcSZRBFcjuSjtLQQnZ8IuN4h90da67J3b/C4b2xqXr/gXV1Ve81DV+64phVic57dJnD2N0G4bx0rTvnb2bmZz0amDG9c7NA6PDxstOpBRHrRoGph4oU9M3fJsMmH5uuiRSAI9QWPr4WJI2r09AtP2bOJrGB5WXUdjFrmtNUPzfZxCytwHMEmNxpmjmuGn7e3zEpA51P9tXOCDgeeseVc12VlZIAwMSva54KtqavpX2x7r9S8dA/62bDznYQqrt4FhZg9kNieCvUWHzVJwRDy7a0car0JWc0KS41SPJffjkllY1LfVl16JWK0cHrNA7d6zoOC4KA7F9KzgeAQS4vAUApJxyxmV7d2pYThBHeJTytJfHnvvRtuX/I6dQFQGgW7gKezHUTOBrCT8G2DB9WG1QDCbKZRvXdiB38DHlosII8QXtgAAAAASUVORK5CYII=" />
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creation unit menu</title>
+  <script type="module" crossorigin src="/assets/index.0998a8dd.js"></script>
+    <link rel="stylesheet" href="/assets/index.eac9b178.css">
+  </head>
+<body>
+  <div class="container-fluid">
+    <h1 class="text-center title">Creation unit menu</h1>  
+    <div class="row">
+      <div class="col-12">
+        <div class="card">
+          <table class="table unit">
+            <thead>
+              <tr>
+                <th scope="col">Hero</th>
+                <th scope="col">Movement</th>
+                <th scope="col">Fight</th>
+                <th scope="col">Strenght</th>
+                <th scope="col">Defense</th>
+                <th scope="col">Attack</th>
+                <th scope="col">Wounds</th>
+                <th scope="col">Courage</th>
+                <th scope="col border">Might</th>
+                <th scope="col border">Will</th>
+                <th scope="col border">Fate</th>
+                <th scope="col">Heroic tier</th>
+                <th scope="col" style="color:#FFC920">Warband</th>
+              </tr>
+            </thead>
+            <tbody id='tableHero'>
+              <tr class="text-center justify-content-center">
+                <th scope="row"><input type="text" class="form-control-xs" placeholder="Hero"></th>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0/9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="col-12">
+            <img class="btn__add addHero" src="../medias/add.png" width="24px" height="24px">
+            <img class="btn__add removeHero" src="../medias/less.png" width="24px" height="24px">
+          </div>
+          <tr>
+            <div class="form-group row">
+              <label for="colFormLabel" class="col-sm-1 m-1 col-form-label">Heroic Actions</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="colFormLabel" placeholder="...">
+              </div>
+            </div>
+          </tr>
+          <tr>
+            <div class="form-group row">
+              <label for="colFormLabel" class="col-sm-1 m-1 col-form-label">Unit tag(s)</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="colFormLabel" placeholder="...">
+              </div>
+            </div>
+          </tr>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <h3>Magical Power</h3>
+          <table class="table" id="MagicTable">
+            <thead>
+              <tr>
+                <th scope="col">Power Name</th>
+                <th scope="col">Range</th>
+                <th scope="col">Casting</th>
+              </tr>
+            </thead>
+            <tbody class="tableMagic" id="tableMagic">
+              <tr class="text-center">
+                <th scope="row"><input type="text" class="form-control" placeholder="Power"></th>
+                <td><input type="text" class="form-control" placeholder="0-9"></td>
+                <td><input type="text" class="form-control" placeholder="..."></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="col-12">
+            <img class="btn__add magic" src="../medias/add.png" width="24px" height="24px">
+            <img class="btn__add lessMagic" src="../medias/less.png" width="24px" height="24px">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card">
+          <h3>Equipped item</h3>
+          <table class="table" id="ItemTable">
+            <thead>
+              <tr>
+                <th scope="col">Item Name</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody class="tableItem" id="tableItem">
+              <tr class="text-center">
+                <th scope="row"><input type="text" class="form-control" placeholder="Item"></th>
+                <td><input type="text" class="form-control" placeholder="..."></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="col-12">
+            <img class="btn__add item" src="../medias/add.png" width="24px" height="24px">
+            <img class="btn__add lessItem" src="../medias/less.png" width="24px" height="24px">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-12">
+        <div class="card">
+          <div class="mb-3">
+            <label for="specialrules" class="form-label">
+              <h3>Special rules</h3>
+            </label>
+            <textarea class="form-control" id="specialrules" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="container my-3">
+        <div class="col-md-12 text-center">
+          <button onclick="window.print('container-fluid');" id="printBtn" type="button"
+            class="noPrint btn btn-danger btn-lg">Print</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+</html>
